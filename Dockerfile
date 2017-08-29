@@ -1,6 +1,6 @@
 FROM debian:latest
 
-MAINTAINER  Agnaldo Marinho "agnaldoneto@ufpa.br"
+LABEL maintainer="Agnaldo Marinho <agnaldoneto@ufpa.br>"
 
 COPY sources.list /etc/apt/sources.list
 
